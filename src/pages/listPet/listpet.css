@@ -1,0 +1,15 @@
+.list-pet .button-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 300px;
+    margin: 24px 0;
+}
+
+.list-pet .button-submit{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
