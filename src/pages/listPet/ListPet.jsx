@@ -63,7 +63,10 @@ function ListPet() {
                   className="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
             </div>
             <div className="col-lg-2 button-submit">
-              <button type="submit" className="btn btn-primary form-control" >Lọc</button>
+              <button type="submit" className="btn btn-primary form-control" >
+                Lọc
+                <i class="fas fa-search"></i>
+              </button>
             </div>
         </div>
 
