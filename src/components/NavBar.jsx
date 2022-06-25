@@ -4,6 +4,7 @@ function NavBar(props) {
     return (
         <div>
             <nav className="navbar navbar-expand-sm navbar-dark" style={{backgroundColor: '#FFB800'}}>
+                <div className="logo"><img src="../logo192.png" alt="" width={'50px'} height={'50px'}/></div>
                 <a className="navbar-brand" href="#">Pet Rescue</a>
                 <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation"></button>
