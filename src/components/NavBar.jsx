@@ -25,7 +25,7 @@ function NavBar(props) {
                     </ul>
                     <form className="form-inline my-2 my-lg-0">
                         <input className="form-control mr-sm-2" type="text" placeholder="Search"/>
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm <i className="fas fa-search "></i></button>
+                        <button className="btn btn-primary my-2 my-sm-0" type="submit">Tìm kiếm <i className="fas fa-search "></i></button>
                     </form>
                 </div>
             </nav>
