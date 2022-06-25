@@ -1,11 +1,12 @@
 import React from "react";
+import Pagination from "../../components/Pagination";
 import Details from "./Details";
 import "./listpet.css";
 
 function ListPet() {
   return (
     <>
-      <div className="container list-pet" data-aos="zoom-in">
+      <div className="container list-pet my-5" data-aos="zoom-in">
         <h1 className="title text-center">TÌM KIẾM THÚ CƯNG</h1>
         <div className="row button-group">
             <button type="button" className="btn btn-primary">Tất cả</button>
@@ -65,7 +66,7 @@ function ListPet() {
             <div className="col-lg-2 button-submit">
               <button type="submit" className="btn btn-primary form-control" >
                 Lọc
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search ml-2"></i>
               </button>
             </div>
         </div>
@@ -84,6 +85,7 @@ function ListPet() {
             <Details img={"../imgs/cat4.jpg"} name={"Ducy"} sex={"Female"} age={"Age"} status={"Yes"}/>
           </div>
         </div>
+        <Pagination/>
       </div>
     </>
   );
